@@ -23,6 +23,12 @@ public class Program {
 			System.out.println(obj);
 			
 		}
+		System.out.println("\n===Test 3: Find seller by departent: ");
+		seller2 = sellerDao.findAll();
+		for (Seller obj : seller2) {
+			System.out.println(obj);
+			
+		}
 	}
 
 }
